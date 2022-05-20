@@ -1,4 +1,5 @@
 import 'package:extra/screen/login.dart';
+import 'package:extra/screen/person.dart';
 import 'package:extra/screen/store.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         
       ),
       debugShowCheckedModeBanner: false,
-      home: Store(),
+      home: Social(),
     );
   }
 }
